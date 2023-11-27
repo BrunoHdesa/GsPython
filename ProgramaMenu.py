@@ -50,4 +50,6 @@ while (sair != 0):
             contato()
         case 4:
             criar_conta()
+        case _:
+            print("Opção invalida")
     sair = int(input("Deseja fazer outra interação? (0-Não 1-Sim): "))
